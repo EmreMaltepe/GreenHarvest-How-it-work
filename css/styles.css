@@ -1,0 +1,29 @@
+body {
+  font-family: "Inter Tight", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+
+.container-one {
+  width: 630px;
+  height: 759px;
+  gap: 10px;
+  opacity: 0px;
+  background: #7a3145;
+  padding: 100px 0px 0px 0px;
+  
+  
+}
+
+.img-one {
+  width: 430px;
+  height: 559px;
+  gap: 0px;
+  opacity: 0px;
+  display: block;
+  margin: auto;
+  padding: auto;
+  
+  
+}
