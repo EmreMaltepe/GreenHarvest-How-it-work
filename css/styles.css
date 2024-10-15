@@ -3,6 +3,7 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  background-color: #7a3145;
 }
 *,
 *::before,
@@ -172,9 +173,19 @@ ol {
   }
 
   @media screen and (min-width: 768px) {
-    .header-text,
-    .header-title,
-    .content-item {
+    .container {
+      max-width: 768px;
+      padding: 0 32px;
+    }
+    .header-text {
+      width: 450px;
+      font-size: 32px;
+    }
+    .header-title {
+      width: 450px;
+      font-size: 32px;
+    }
+    .content-items {
       width: 450px;
       font-size: 32px;
     }
@@ -187,15 +198,46 @@ ol {
     .background-red {
       padding: 100px 32px;
     }
-    .howitworks .container-info {
+    .container-info {
       padding: 0 159px;
     }
     .container-img {
       padding: 0 64px;
     }
-    
   }
 
+  @media screen and (min-width: 1280px) {
+    .container {
+      max-width: 1280px;
+      padding: 0 100px;
+    }
+    .howitworks {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    .img-one {
+      /* width: 630px; */
+    }
+    .container-info {
+      width: 650px;
+    }
+    .howitworks .container-info {
+      padding: 0 100px;
+      margin: 0 auto;
+    }
+    .background-green {
+      padding-top: 100px;
+      padding-bottom: 160px;
 
-     
+    }
+    .background-red {
+      padding-top: 100px;
+      padding-bottom: 100px;
+    }
+    .container-img{
+      width: 630px;
+    }
+  }
+
      
